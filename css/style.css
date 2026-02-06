@@ -1,0 +1,107 @@
+/* RESET DASAR */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* HEADER */
+header {
+  background-color: #5ab487;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* MAIN CONTAINER */
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+/* SECTION */
+section {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+/* SECTION TITLE */
+section h2 {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+/* FORM */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* BUTTON */
+button {
+  padding: 10px;
+  border: none;
+  background-color: #5ab487;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4a9c72;
+}
+
+/* FILTER SECTION */
+.filter-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* TODO LIST */
+#todoList {
+  list-style: none;
+}
+
+#todoList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* DELETE BUTTON */
+#todoList button {
+  background-color: #ef4444;
+  padding: 5px 8px;
+  font-size: 12px;
+}
+
+#todoList button:hover {
+  background-color: #dc2626;
+}
